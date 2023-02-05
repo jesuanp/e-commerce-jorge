@@ -1,0 +1,43 @@
+.container {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.containerImg {
+    position: relative;
+    width: 100%;
+}
+
+.imgShoes {
+    width: 100%;
+    padding: 0;
+}
+
+.btnVerMas {
+    padding: 0.6rem 2rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5rem;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.absoliteLeft {
+    left: 1rem;
+    right: auto;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.textImage {
+    padding: 0;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #fff;
+}
+
+
