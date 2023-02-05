@@ -1,8 +1,8 @@
 import React from "react";
 import s from './productos.module.css';
-import img20 from '../../images/image20.jpg';
+import img4 from '../../images/image4.jpg';
 import gifRegresoAClases from '../../images/image-regreso-a-clases.gif';
-import imgSneakersNew from '../../images/banner_sneakers_new.jpg';
+import img13 from '../../images/image13.jpg';
 import img14 from '../../images/image14.jpg';
 import { NavLink } from "react-router-dom";
 
@@ -21,7 +21,7 @@ export default function Productos() {
                 </div>
 
                 <div className={s.containerImg}>
-                    <img className={s.imgShoes} src={img20} alt='gis Nuestros Articulos' />
+                    <img className={s.imgShoes} src={img13} alt='gis Nuestros Articulos' />
                     <NavLink to='/zapato'>
                         <button className={s.btnVerMas}>VER MÁS</button>
                     </NavLink>
@@ -36,7 +36,7 @@ export default function Productos() {
                         <span style={{fontSize: '4rem'}}>TENIS</span>
                     </strong>
 
-                    <img className={s.imgShoes} src={imgSneakersNew} alt='sneakers new' />
+                    <img className={s.imgShoes} src={img4} alt='sneakers new' />
                     <NavLink to='/zapato'>
                         <button style={{top: '7rem', bottom: 'auto'}} className={`${s.btnVerMas} ${s.absoliteLeft}`}>VER MÁS</button>
                     </NavLink>
