@@ -21,11 +21,19 @@ export default function Productos() {
                 </div>
 
                 <div className={s.containerImg}>
-                    <img className={s.imgShoes} src={img13} alt='gis Nuestros Articulos' />
-                    <NavLink to='/zapato'>
-                        <button className={s.btnVerMas}>VER MÁS</button>
-                    </NavLink>
+                    <div className={s.containerImg}>
+                        <img className={s.imgShoes} src={img14} alt='image 13 zapatos' />
+                        <NavLink to='/zapato'>
+                            <button className={s.btnVerMas}>VER MÁS</button>
+                        </NavLink>
+                    </div>
+                    <div className={s.divText}>
+                        <span>Tenis para hombres estilo Sport Runner</span>
+                        <br/>
+                        <span style={{fontSize: '1.2rem', color: 'rgb(201, 131, 0)'}}>152.900 COP</span>
+                    </div>
                 </div>
+                
             </div>
 
             <div className={s.section}>
@@ -43,17 +51,10 @@ export default function Productos() {
                 </div>
 
                 <div className={s.containerImg}>
-                    <div className={s.containerImg}>
-                        <img className={s.imgShoes} src={img14} alt='image 13 zapatos' />
-                        <NavLink to='/zapato'>
-                            <button className={s.btnVerMas}>VER MÁS</button>
-                        </NavLink>
-                    </div>
-                    <div className={s.divText}>
-                        <span>Tenis para hombres estilo Sport Runner</span>
-                        <br/>
-                        <span style={{fontSize: '1.2rem', color: 'rgb(201, 131, 0)'}}>152.900 COP</span>
-                    </div>
+                    <img className={s.imgShoes} src={img13} alt='gis Nuestros Articulos' />
+                    <NavLink to='/zapato'>
+                        <button className={s.btnVerMas}>VER MÁS</button>
+                    </NavLink>
                 </div>
             </div>
 
