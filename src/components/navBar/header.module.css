@@ -1,5 +1,5 @@
 .header {
-    height: 8rem;
+    height: 6rem;
     width: 100%;
     background-color: #fff;
     position: relative;
@@ -12,13 +12,12 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    padding-top: 1rem;
+    align-items: center;
 }
 
 .containerIcon {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     height: 100%;
 }
 
@@ -28,5 +27,5 @@
 
 .imgLogo {
     border-radius: 999px;
-    width: 6rem;
+    width: 5rem;
 }
