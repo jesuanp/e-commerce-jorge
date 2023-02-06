@@ -74,7 +74,7 @@ export default function Foot() {
             <section style={{width: '100%', marginTop: '6rem'}}>
                 <div className={s.containerMetodosPagos}>
                     <img className={s.imgPagos} src={metodosDePago} alt='Metodos de pago' />
-                    <button className={s.btn}>Var cómo comprar</button>
+                    <button className={s.btn}>Ver cómo comprar</button>
                 </div>
             </section>
 
